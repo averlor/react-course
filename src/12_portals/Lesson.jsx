@@ -37,7 +37,11 @@ class Lesson extends Component {
                 <div onClick={this.handleClick}>
                     <span>Counter: {this.state.count}</span>
                     <Portal>
-                        <button>Click</button>
+                       <div className="modal">
+                           <div className="modal__content">
+                               ...
+                           </div>
+                       </div>
                     </Portal>
                 </div>
             </Fragment>

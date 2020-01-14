@@ -17,7 +17,7 @@ const NewsPost = ({ author, created_at, num_comments, title, points, url }) => (
 
 NewsPost.propTypes = {
     author: PropTypes.string,
-    created_at: PropTypes.string.isRequired,
+    created_at: PropTypes.string,
     num_comments: PropTypes.number,
     title: PropTypes.string,
     points: PropTypes.number,

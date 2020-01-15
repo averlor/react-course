@@ -1,12 +1,12 @@
 import React, {Component} from 'react';
 
-import News from './14_api/container/news';
+import Lesson from './15_router/Lesson';
 
 class App extends Component {
 
   render() {
     return (
-      <News />
+      <Lesson children={this.props.children}/>
     );
   }
 }

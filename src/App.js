@@ -1,12 +1,16 @@
-import React, {Component} from 'react';
+import React, {Component, Fragment} from 'react';
 
-import Lesson from './15_router/Lesson';
+import ToDo from './16_redux/container/todo';
+import Title from './16_redux/components/title/title';
 
 class App extends Component {
 
   render() {
     return (
-      <Lesson children={this.props.children}/>
+      <Fragment>
+          <Title title="ToDo App" />
+          <ToDo />
+      </Fragment>
     );
   }
 }
